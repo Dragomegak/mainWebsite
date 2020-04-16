@@ -1,26 +1,29 @@
 .webpage{
+    /* Shifts page down from the header */
     position: relative;
     top: 35px;
 }
 .carousel-inner{
+    /* Handles carousel image properties */
     display: inline-block; 
     position: relative;
-    height: 750px;
+    height: 650px;
     /* remove padding later */
     /* padding: 5px; */
 }
-carousel-inner {
+.carousel-item{
+    /* Handles picture framing and alignment */ 
     position: relative;
-    max-height: 400px;
+    max-height: 650px;
     top: 50%;
     transform: translateY(-50%)
 }
 .carousel-caption{
-    /* font attributes */
+    /* Carousel font attributes */
     font-size: 140%;
     color: #fff;
     text-shadow: #000 0px 0px 4px;
-    /* positioning */
+    /* Caption positioning */
     position: absolute;
-    top: 60%;
+    top: 80%;
 }
