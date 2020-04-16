@@ -1,0 +1,26 @@
+.webpage{
+    position: relative;
+    top: 35px;
+}
+.carousel-inner{
+    display: inline-block; 
+    position: relative;
+    height: 750px;
+    /* remove padding later */
+    /* padding: 5px; */
+}
+carousel-inner {
+    position: relative;
+    max-height: 400px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.carousel-caption{
+    /* font attributes */
+    font-size: 140%;
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
+    /* positioning */
+    position: absolute;
+    top: 60%;
+}
