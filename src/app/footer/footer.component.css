@@ -1,4 +1,4 @@
-.footer-color {
+/* .footer-color {
     background-color: #343A40;
     height: 25px;
     
@@ -8,7 +8,14 @@
     right: 0;
     bottom: 0;
     left: 0;
-    /* padding: 1rem; */
+    -- remove padding: 1rem; 
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
+} */
+.footer{
+    background-color: #343A40;
+    min-height: 20px;
     text-align: center;
     color: #fff;
     text-shadow: #000 0px 0px 4px;

@@ -1,5 +1,8 @@
 .website-background{
     background-color: #123C69;
+    /*add these to every web page to make footer align properly*/
+    margin: 0;
+    min-height: calc(100vh - 50px);
 }
 .carousel{
     /* Shifts page down from the header */
@@ -73,6 +76,7 @@
 }
 .external-links{
     padding: 2vh;
+    
 }
 .logos{
     /* Streamline Logo properties */
