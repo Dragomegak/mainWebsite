@@ -1,8 +1,15 @@
-.webpage{
+.website-background{
+    background-color: #123C69;
+}
+.carousel{
     /* Shifts page down from the header */
 
     position: relative;
-    top: 35px;
+    /* 
+    Minor change to account for header
+    top: 35px; 
+    */
+    padding-bottom: 0.180vh;
     background-color: grey;
 }
 .carousel-size{
@@ -13,7 +20,7 @@
 
     display: inline-block; 
     position: relative;
-    height: 650px;
+    height: 60vh;
     /* 
     remove padding later
 
@@ -53,4 +60,25 @@
     
     position: absolute;
     top: 80%;
+}
+.social-media-text{
+    /* padding-top: 2vh; */
+    padding-bottom: 2vh;
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
+}
+.social-media-logos{
+    margin: 0;
+}
+.external-links{
+    padding: 2vh;
+}
+.logos{
+    /* Streamline Logo properties */
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
