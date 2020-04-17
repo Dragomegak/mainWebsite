@@ -1,5 +1,6 @@
 .webpage{
     /* Shifts page down from the header */
+
     position: relative;
     top: 35px;
     background-color: grey;
@@ -9,20 +10,30 @@
 }
 .carousel-inner{
     /* Handles carousel image properties */
+
     display: inline-block; 
     position: relative;
     height: 650px;
-    /* remove padding later */
-    /* padding: 5px; */
+    /* 
+    remove padding later
+
+    padding: 5px; 
+    */
 }
 .carousel-item{
     /* Handles picture framing and alignment */ 
-    /* position: relative;
+    
+    /* 
+    Remove later, stretches picture and does not scale to adaptive screen size
+    
+    position: relative;
     margin: auto;
     max-width: 100%;
     height: 100%;
     top: 50%;
-    transform: translateY(-50%); */
+    transform: translateY(-50%); 
+    */
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,10 +45,12 @@
 }
 .carousel-caption{
     /* Carousel font attributes */
+
     font-size: 140%;
     color: #fff;
     text-shadow: #000 0px 0px 4px;
     /* Caption positioning */
+    
     position: absolute;
     top: 80%;
 }
