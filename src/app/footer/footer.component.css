@@ -1,9 +1,10 @@
 .footer-color {
     background-color: #343A40;
-    height: 2vh;
+    height: 25px;
+    
 }
 .copy-text {
-    position: absolute;
+    margin: 0;
     right: 0;
     bottom: 0;
     left: 0;
