@@ -12,6 +12,7 @@
     Minor change to account for header
     top: 35px; 
     */
+    padding-top: 1vh;
     padding-bottom: 0.180vh;
     background-color: grey;
 }
@@ -53,16 +54,22 @@
     max-height: 650px;
     width: auto;
 }
-.carousel-caption{
-    /* Carousel font attributes */
-
-    font-size: 140%;
+/* .carousel-caption{
+    /* Carousel font attributes 
+    text-align: center;
+    font-size: 100%;
     color: #fff;
     text-shadow: #000 0px 0px 4px;
-    /* Caption positioning */
-    
+    /* Caption positioning 
     position: absolute;
-    top: 80%;
+    height: 37vh;
+    
+} */
+.mission-quote{
+    padding-top: 2vh;
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
 }
 .social-media-text{
     /* padding-top: 2vh; */
