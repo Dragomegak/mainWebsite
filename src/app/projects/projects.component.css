@@ -2,7 +2,7 @@
     background-color: #123C69;
     /*add these to every web page to make footer align properly*/
     margin: 0;
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 48px);
 }
 .project-title{
     /* Shifts page down from the header */
@@ -12,8 +12,8 @@
     Minor change to account for header
     top: 35px; 
     */
-    padding-top: 4vh;
-    padding-bottom: 0.180vh;
+    padding-top: 5vh;
+    padding-bottom: 0.20vh;
 }
 .project-title>h2{
     text-align: center;
@@ -21,5 +21,6 @@
     text-shadow: #000 0px 0px 4px;
 }
 .project-list{
-    border-style: solid;
+    /* border-style: solid;
+    background-color: grey; */
 }

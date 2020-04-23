@@ -2,7 +2,7 @@
     background-color: #123C69;
     /*add these to every web page to make footer align properly*/
     margin: 0;
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 48px);
 }
 .carousel{
     /* Shifts page down from the header */
