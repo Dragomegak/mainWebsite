@@ -1,0 +1,22 @@
+.website-background{
+    background-color: #123C69;
+    /*add these to every web page to make footer align properly*/
+    margin: 0;
+    min-height: calc(100vh - 50px);
+}
+.project-title{
+    /* Shifts page down from the header */
+
+    position: relative;
+    /* 
+    Minor change to account for header
+    top: 35px; 
+    */
+    padding-top: 4vh;
+    padding-bottom: 0.180vh;
+}
+.project-title>h2{
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
+}
