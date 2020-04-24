@@ -12,8 +12,8 @@
     Minor change to account for header
     top: 35px; 
     */
-    padding-top: 5vh;
-    padding-bottom: 0.20vh;
+    padding: 5vh;
+    /* padding-bottom: 0.20vh; */
 }
 .project-title>h2{
     text-align: center;
@@ -21,6 +21,11 @@
     text-shadow: #000 0px 0px 4px;
 }
 .project-list{
-    /* border-style: solid;
-    background-color: grey; */
+    border-style: solid;
+    background-color: #343A40;
+    box-shadow: 10px 10px grey;
+}
+.project-text{
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
 }
