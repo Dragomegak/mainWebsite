@@ -78,6 +78,12 @@
 .social-media-logos{
     margin: 0;
 }
+.social-media-names{
+    padding-top: 0.4vh;
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
+}
 .external-links{
     padding: 2vh;
     
