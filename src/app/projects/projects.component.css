@@ -3,6 +3,7 @@
     /*add these to every web page to make footer align properly*/
     margin: 0;
     min-height: calc(100vh - 48px);
+    padding-bottom: 5vh;
 }
 .project-title{
     /* Shifts page down from the header */
@@ -12,8 +13,9 @@
     Minor change to account for header
     top: 35px; 
     */
-    padding: 5vh;
-    /* padding-bottom: 0.20vh; */
+    
+    padding-top: 6vh;
+    padding-bottom: 3vh; /* 0.20vh; */
 }
 .project-title>h2{
     text-align: center;
@@ -30,5 +32,5 @@
     text-shadow: #000 0px 0px 4px;
 }
 .row-spacing{
-    padding: 1vh;
+    padding: 0.5vh;
 }
