@@ -26,6 +26,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-To build for Github Pages run `ng build --prod --output-path docs --base-href /<project_name>/` and replace project name with mainWebsite. `ng build --prod --output-path docs --base-href mainWebsite`
+To build for Github Pages run `ng build --prod --output-path docs --base-href /<project_name>/` and replace project name with mainWebsite. `ng build --prod --output-path docs --base-href mainWebsite`  
 
-Also make sure to configure in the repository's settings that it should publish from the docs folder.
+Also make sure to configure in the repository's settings that it should publish from the docs folder.  
+
+## To Do:  
+
+Fix refresh routing.  
+Add 404 routing & component.
+
+## Wishlist To Do:  
+
+Add Study Section w/ Youtube playlist links.
+Tinker with some backend to maybe add email form to contact-info page.
+Tinker with RestAPI so I can streamline adding repo list to projects.
