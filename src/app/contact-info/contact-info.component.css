@@ -1,6 +1,7 @@
 .website-background{
     background-color: #123C69;
     /*add these to every web page to make footer align properly*/
+    padding-top: 5vh;
     margin: 0;
     min-height: calc(100vh - 48px);
 }
