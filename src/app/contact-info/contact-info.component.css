@@ -6,5 +6,35 @@
     min-height: calc(100vh - 48px);
 }
 .location-map{
-    
+    /* margin: auto;
+    width: 50%; */
+    /* seeing the border of the map */
+    /* border: 3px solid green;
+    padding: 10px; */
+}
+.maps-text-container{
+    position: fixed;
+    left: 50vh;
+    padding: 0;
+    margin: 0;
+    /* background-color: #ff00ff; */
+}
+.left-element {
+    /* background: green; */
+    display: inline-block;
+    float: left;
+}
+
+.right-element {
+    /* background: red; */
+    display: inline-block;
+    float: left;
+    border-style: solid;
+    background-color: #343A40;
+    box-shadow: 10px 10px grey;
+    padding: 1vh;
+}
+.information-text {
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
 }
