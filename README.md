@@ -40,3 +40,7 @@ Add 404 routing & component.
 Add Study Section w/ Youtube playlist links.
 Tinker with some backend to maybe add email form to contact-info page.
 Tinker with RestAPI so I can streamline adding repo list to projects.
+
+## Useful topics:  
+
+[Multiple window workspace.](https://stackoverflow.com/questions/43362133/visual-studio-code-open-tab-in-new-window)
