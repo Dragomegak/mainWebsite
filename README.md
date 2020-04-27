@@ -30,6 +30,10 @@ To build for Github Pages run `ng build --prod --output-path docs --base-href /<
 
 Also make sure to configure in the repository's settings that it should publish from the docs folder.  
 
+## Refresh Error Fix
+
+Quoting this [video](https://www.youtube.com/watch?v=dlPwcNcMv04), add `import { HashLocationStrategy, LocationStrategy } from '@angular/common';` to app.module.ts, replace providers with `providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],` and replace `<base href="mainWebsite">` with `<base href="./index.html">`.
+
 ## To Do:  
 
 Fix refresh routing.  
