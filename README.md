@@ -36,14 +36,13 @@ Quoting this [video](https://www.youtube.com/watch?v=dlPwcNcMv04), add `import {
 
 ## To Do:  
 
-Fix refresh routing.  
 Add 404 routing & component.
 
 ## Wishlist To Do:  
 
 Add Study Section w/ Youtube playlist links.
 Tinker with some backend to maybe add email form to contact-info page.
-Tinker with RestAPI so I can streamline adding repo list to projects.
+Tinker with RestAPI so I can streamline adding repo list to projects, can be used for listing descriptions as well.
 
 ## Useful topics:  
 
