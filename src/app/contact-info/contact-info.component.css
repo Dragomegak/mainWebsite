@@ -5,16 +5,21 @@
     min-height: calc(100vh - 48px);
     padding-bottom: 2vh;
 }
-.location-map{
+.spacing{
     padding-top: 5vh;
-    
+}
+.location-map{
+    /* padding-top: 5vh; */
+
     /* margin: auto;
     width: 50%; */
     /* seeing the border of the map */
     /* border: 3px solid green;
     padding: 10px; */
 }
-/* .maps-text-container{
+/*.maps-container{
+    
+    width: 100%;
     position: fixed;
     left: 50vh;
     padding: 0;
@@ -29,6 +34,7 @@
 
 .information {
     /* background: red; */
+    
     border-style: solid;
     background-color: #343A40;
     padding-bottom: 1vh;
@@ -39,6 +45,7 @@
 }
 .information-text>h4{
     padding-top: 1vh;
+    padding-bottom: 2vh;
 }
 .subject-to-change{
     font-size: 75%;
