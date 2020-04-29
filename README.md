@@ -32,7 +32,7 @@ Also make sure to configure in the repository's settings that it should publish 
 
 ## Refresh Error Fix
 
-Quoting this [video](https://www.youtube.com/watch?v=dlPwcNcMv04), add `import { HashLocationStrategy, LocationStrategy } from '@angular/common';` to app.module.ts, replace providers with `providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],` and replace `<base href="mainWebsite">` with `<base href="./index.html">`.
+Quoting this [video](https://www.youtube.com/watch?v=dlPwcNcMv04), add `import { HashLocationStrategy, LocationStrategy } from '@angular/common';` to app.module.ts, replace providers with `providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],` and replace `<base href="mainWebsite">` with `<base href="./index.html">` in the compiled index.html.
 
 ## To Do:  
 
