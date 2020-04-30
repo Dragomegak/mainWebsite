@@ -6,6 +6,20 @@
                 <h2>Projects List</h2>
             </div>
             <div class="container project-list">
+                <!-- <div class="table-responsive">
+                    <h2>Projects List</h2>
+                    <table class= "table table-bordered table-striped" id="project_table">
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Project Description</th>
+                            <th>Project Contribution</th>
+                            <th>Technologies Used</th>
+                            <th>Links</th>
+                        </tr>
+                    </table>
+                </div> -->
+
+
                 <!-- Table Row Template using grid
                 <div class="row  row-spacing">
                     <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2 project-text text-center">
@@ -142,3 +156,20 @@
           </table> -->
     </body>
 </html>
+<!-- <script>
+    $(document).ready(function(){
+        $.getJSON("projects.json",function(data)){
+            var project_data = '';
+            $.each(data, function(key,value)){
+                project_data += '<tr>';
+                project_data += '<td>'+value.name+'</td>';
+                project_data += '<td>'+value.description+'</td>';
+                project_data += '<td>'+value.workDescription+'</td>';
+                project_data += '<td>'+value.technologiesUsed+'</td>';
+                project_data += '<td>'+value.link+'</td>';
+                project_data += '</tr>'
+            });
+            $('#project_table'),append(project_data);
+        });
+    });
+</script> -->
