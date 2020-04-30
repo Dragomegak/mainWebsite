@@ -5,6 +5,11 @@
     min-height: calc(100vh - 48px);
     padding-bottom: 5vh;
 }
+.website-background>table{
+    background-color: #343A40;
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
+}
 .project-title{
     /* Shifts page down from the header */
 

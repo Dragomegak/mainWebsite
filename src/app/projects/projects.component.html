@@ -5,8 +5,8 @@
             <div class="project-title">
                 <h2>Projects List</h2>
             </div>
-            <div class="container project-list">
-                <!-- <div class="table-responsive">
+            <!--JSON Test 
+                <div class="table-responsive">
                     <h2>Projects List</h2>
                     <table class= "table table-bordered table-striped" id="project_table">
                         <tr>
@@ -18,9 +18,10 @@
                         </tr>
                     </table>
                 </div> -->
+            <!-- <div class="container project-list">
+                
 
-
-                <!-- Table Row Template using grid
+                Table Row Template using grid
                 <div class="row  row-spacing">
                     <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2 project-text text-center">
                         <h4>Insert Project Name</h4>
@@ -38,7 +39,7 @@
                     </div>
                 </div> 
                 -->
-                <div class="row row-spacing">
+                <!-- <div class="row row-spacing">
                     <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2 project-text">
                         <h4><a href="https://github.com/Dragomegak/DESM-Personal">Desktop Environmental Setup Manager</a></h4>
                     </div>
@@ -67,7 +68,7 @@
                         <p>Technologies Used</p>
                         <ul>
                             <li>Swift 4.2</li>
-                            <li>Xcode IDE</li>
+                            <li>xCode IDE</li>
                         </ul>
                     </div>
                 </div>
@@ -120,43 +121,87 @@
                         </ul>
                     </div>
                 </div> 
-            </div>
-        </div>
-        <!--
-            Table Template -> Switch grid to table, much better scaling 
+            </div> -->
+            <!-- Table Template -> Switch grid to table, much better scaling 
         <table class="table">
             <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-              </tr>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-              </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
             </tbody>
-          </table> -->
+        </table> -->
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th scope="col">Project Name</th>
+                    <th scope="col">Project Description</th>
+                    <th scope="col">Work Done</th>
+                    <th scope="col">Technologies Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><a href="https://github.com/Dragomegak/DESM-Personal">Desktop Environmental Setup Manager</a></th>
+                    <td>This is a Microsoft Windows Program application and uses a QT Frontend with C++ and Win32API backend to create a virtual desktop based on a profile system.</td>
+                    <td>The profiles are made ahead of time and have a list of programs to run. The profiles can be made for different scenarios that require different programs to be launched.</td>
+                    <td>C++, QT Framework, Win32 API</td>
+                </tr>
+                <tr>
+                    <th><a href="https://github.com/Dragomegak/Alien-Attack">Alien Attack</a></th>
+                    <td>An IOS Game where you tap aliens coming down from the top of your screen!</td>
+                    <td>This game used a multitude of IOS/Swift unique features like delegation for physics, gamescene/gameview for specific tools used to make games and easy local database storage </td>
+                    <td>Swift 4.2, xCode IDE</td>
+                </tr>
+                <tr>
+                    <th><a href="https://github.com/Dragomegak/filer">Nodejs Filer</a></th>
+                    <td>Node-like file system for browsers - <a href="https://filerjs.github.io/filer">https://filerjs.github.io/filer</a></td>
+                    <td>I contributed a test for a npm based project Filer which is a drop-in replacement for node's fs module, a POSIX-like file system for browsers.</td>
+                    <td>Nodejs, Javascript</td>
+                </tr>
+                <tr>
+                    <th><a href="https://github.com/Dragomegak/Android-Jetpack">Android Jetpack</a></th>
+                    <td>Documentation created to speed up development and become a be a reference for Android Development</td>
+                    <td>A project I contributed to in order to understand more about android development as well as continue to learn and make meaningful and useful documentation for others to use.</td>
+                    <td>Markdown, Kotlin</td>
+                </tr>
+                <tr>
+                    <th><a href="https://github.com/Dragomegak/zopfli">Zopfli</a></th>
+                    <td>Zopfli Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.</td>
+                    <td><a href="https://stevenleopensourceblog.wordpress.com/2018/11/06/spo600-saa-project/">Referencing this.</a> A project I analyzed the runtime and and tried my hand at seeing whether I could further optimize using methods like optimization flags, unique CPU performance characteristics, auto-vectorization etc.</td>
+                    <td>Assembly Language, x86/x64 Architectures, ARMv8a/AArch64 Architectures</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
     </body>
 </html>
-<!-- <script>
+
+
+<!-- JSON get
+<script>
     $(document).ready(function(){
         $.getJSON("projects.json",function(data)){
             var project_data = '';
