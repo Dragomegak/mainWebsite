@@ -36,6 +36,6 @@
     "link": "https://github.com/Dragomegak/zopfli",
     "description": "Zopfli Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.",
     "workDescription": "Referencing: https://stevenleopensourceblog.wordpress.com/2018/11/06/spo600-saa-project/. A project I analyzed the runtime and and tried my hand at seeing whether I could further optimize using methods like optimization flags, unique CPU performance characteristics, auto-vectorization etc.",
-    "Technologies Used": "Assembly Language, x86 Architecture, x64 Architecture, ARMv8a Architecture, AArch64 Architecture"
+    "technologiesUsed": "Assembly Language, x86/x64 Architecture, ARMv8a/AArch64 Architecture"
 }
 ]
