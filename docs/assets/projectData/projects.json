@@ -1,41 +1,41 @@
 [{
     "ID": "001",
-    "Name": "Desktop Environmental Setup Manager",
-    "Link": "https://github.com/Dragomegak/DESM-Personal",
-    "Description": "This is a Microsoft Windows Program application and uses a QT Frontend with C++ and Win32API backend to create a virtual desktop based on a profile system.",
-    "Work Description": "The profiles are made ahead of time and have a list of programs to run. The profiles can be made for different scenarios that require different programs to be launched.",
-    "Technologies Used": "C++, QT Framework, Win32 API"
+    "name": "Desktop Environmental Setup Manager",
+    "link": "https://github.com/Dragomegak/DESM-Personal",
+    "description": "This is a Microsoft Windows Program application and uses a QT Frontend with C++ and Win32API backend to create a virtual desktop based on a profile system.",
+    "workDescription": "The profiles are made ahead of time and have a list of programs to run. The profiles can be made for different scenarios that require different programs to be launched.",
+    "technologiesUsed": "C++, QT Framework, Win32 API"
 },
 {
     "ID": "002",
-    "Name": "Alien Attack",
-    "Link": "https://github.com/Dragomegak/Alien-Attack",
-    "Description": "An IOS Game where you tap aliens coming down from the top of your screen!",
-    "Work Description": "This game used a multitude of IOS/Swift unique features like delegation for physics, gamescene/gameview for specific tools used to make games and easy local database storage.",
-    "Technologies Used": "Swift 4.2, xCode IDE"
+    "name": "Alien Attack",
+    "link": "https://github.com/Dragomegak/Alien-Attack",
+    "description": "An IOS Game where you tap aliens coming down from the top of your screen!",
+    "workDescription": "This game used a multitude of IOS/Swift unique features like delegation for physics, gamescene/gameview for specific tools used to make games and easy local database storage.",
+    "technologiesUsed": "Swift 4.2, xCode IDE"
 },
 {
     "ID": "003",
-    "Name": "Nodejs Filer",
-    "Link": "https://github.com/Dragomegak/filer",
-    "Description": "Node-like file system for browsers - https://filerjs.github.io/filer",
-    "Work Description": "I contributed a test for a npm based project Filer which is a drop-in replacement for node's fs module, a POSIX-like file system for browsers.",
-    "Technologies Used": "Nodejs, Javascript"
+    "name": "Nodejs Filer",
+    "link": "https://github.com/Dragomegak/filer",
+    "description": "Node-like file system for browsers - https://filerjs.github.io/filer",
+    "workDescription": "I contributed a test for a npm based project Filer which is a drop-in replacement for node's fs module, a POSIX-like file system for browsers.",
+    "technologiesUsed": "Nodejs, Javascript"
 },
 {
     "ID": "004",
-    "Name": "Android Jetpack",
-    "Link": "https://github.com/Dragomegak/Android-Jetpack",
-    "Description": "Documentation created to speed up development and become a be a reference for Android Development.",
-    "Work Description": "A project I contributed to in order to understand more about android development as well as continue to learn and make meaningful and useful documentation for others to use.",
-    "Technologies Used": "Markdown, Kotlin"
+    "name": "Android Jetpack",
+    "link": "https://github.com/Dragomegak/Android-Jetpack",
+    "description": "Documentation created to speed up development and become a be a reference for Android Development.",
+    "workDescription": "A project I contributed to in order to understand more about android development as well as continue to learn and make meaningful and useful documentation for others to use.",
+    "technologiesUsed": "Markdown, Kotlin"
 },
 {
     "ID": "005",
-    "Name": "Zopfli",
-    "Link": "https://github.com/Dragomegak/zopfli",
-    "Description": "Zopfli Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.",
-    "Work Description": "Referencing: https://stevenleopensourceblog.wordpress.com/2018/11/06/spo600-saa-project/. A project I analyzed the runtime and and tried my hand at seeing whether I could further optimize using methods like optimization flags, unique CPU performance characteristics, auto-vectorization etc.",
-    "Technologies Used": "Assembly Language, x86 Architecture, x64 Architecture, ARMv8a Architecture, AArch64 Architecture"
+    "name": "Zopfli",
+    "link": "https://github.com/Dragomegak/zopfli",
+    "description": "Zopfli Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.",
+    "workDescription": "Referencing: https://stevenleopensourceblog.wordpress.com/2018/11/06/spo600-saa-project/. A project I analyzed the runtime and and tried my hand at seeing whether I could further optimize using methods like optimization flags, unique CPU performance characteristics, auto-vectorization etc.",
+    "technologiesUsed": "Assembly Language, x86/x64 Architecture, ARMv8a/AArch64 Architecture"
 }
 ]
