@@ -37,6 +37,7 @@ Quoting this [video](https://www.youtube.com/watch?v=dlPwcNcMv04), add `import {
 ## To Do:  
 
 Add 404 routing & component.
+Modularity of tables: `https://jsonworld.com/demo/how-to-read-local-json-file-in-angular`
 
 ## Wishlist To Do:  
 
