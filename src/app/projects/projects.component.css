@@ -11,7 +11,7 @@
     text-shadow: #000 0px 0px 4px;
 }
 .project-title{
-    /* Shifts page down from the header */
+    /* Shifts page down from the header & pads project list*/
 
     position: relative;
     /* 
@@ -23,19 +23,24 @@
     padding-bottom: 3vh; /* 0.20vh; */
 }
 .project-title>h2{
+    /* Header Color & Attributes */
     text-align: center;
     color: #fff;
     text-shadow: #000 0px 0px 4px;
 }
 .project-list{
+    /* Styling for the Table */
     border-style: solid;
     background-color: #343A40;
     box-shadow: 10px 10px grey;
 }
 .project-text{
+    /* Styling for the Table Text */
     color: #fff;
     text-shadow: #000 0px 0px 4px;
 }
+/* Deprecated
 .row-spacing{
     padding: 0.5vh;
 }
+ */
