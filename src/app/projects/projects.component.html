@@ -195,6 +195,11 @@
                 </tr>
             </tbody>
         </table>
+        <ul *ngFor="let item of projectList">
+            <li>
+              <h3>Country Name :{{item.name}}, link: {{item.link}}</h3>
+            </li>
+          </ul>
         </div>
     </body>
 </html>
