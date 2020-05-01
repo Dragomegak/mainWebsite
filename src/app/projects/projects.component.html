@@ -153,7 +153,7 @@
                 </tr>
             </tbody>
         </table> -->
-        <table class="table table-responsive">
+        <!-- <table class="table table-responsive">
             <thead>
                 <tr>
                     <th scope="col">Project Name</th>
@@ -194,12 +194,28 @@
                     <td>Assembly Language, x86/x64 Architectures, ARMv8a/AArch64 Architectures</td>
                 </tr>
             </tbody>
+        </table> -->
+        <table class= "table table-responsive"> 
+            <thead>
+                <tr>
+                    <th scope="col">Project Name</th>
+                    <th scope="col">Project Description</th>
+                    <th scope="col">Work Done</th>
+                    <th scope="col">Tech Used</th>
+                </tr>
+            </thead>
+          <tr *ngFor="let item of projectList">
+              <td><a href="{{item.link}}">{{item.name}}</a></td>
+              <td>{{item.description}}</td>
+              <td>{{item.workDescription}}</td>
+              <td>{{item.technologiesUsed}}</td>
+          </tr>
         </table>
-        <ul *ngFor="let item of projectList">
+        <!-- <ul *ngFor="let item of projectList">
             <li>
               <h3>Country Name :{{item.name}}, link: {{item.link}}</h3>
             </li>
-          </ul>
+          </ul> -->
         </div>
     </body>
 </html>
