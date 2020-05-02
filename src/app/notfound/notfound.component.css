@@ -4,7 +4,19 @@
     margin: 0;
     min-height: calc(100vh - 24px);
 }
-.header{
+.spacing{
     position: relative;
     padding-top: 8vh;
+}
+.border-style{
+    border-style: solid;
+    background-color: #343A40;
+    box-shadow: 10px 10px grey;
+}
+.material-spacing{
+    padding-top: 2vh;
+}
+h1,h3,h4,li,p{
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
 }
