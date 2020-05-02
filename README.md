@@ -34,11 +34,11 @@ Also make sure to configure in the repository's settings that it should publish 
 ## Refresh Error Fix
 
 Quoting this [video](https://www.youtube.com/watch?v=dlPwcNcMv04), add `import { HashLocationStrategy, LocationStrategy } from '@angular/common';` to app.module.ts, replace providers with `providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],` and replace `<base href="mainWebsite">` with `<base href="./index.html">` in the compiled index.html.
+Modularity of tables: `https://jsonworld.com/demo/how-to-read-local-json-file-in-angular`
 
 ## To Do:  
 
 Add 404 routing & component.  
-Modularity of tables: `https://jsonworld.com/demo/how-to-read-local-json-file-in-angular`
 
 ## Wishlist To Do:  
 
