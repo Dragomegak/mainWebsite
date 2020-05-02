@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactInfoComponent } from './contact-info/contact-info.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     HeaderComponent,
     FooterComponent,
     ProjectsComponent,
-    ContactInfoComponent
+    ContactInfoComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
