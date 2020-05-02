@@ -10,7 +10,8 @@ const routes: Routes = [
   {path: "home", component: HomeComponent},
   {path: "projects", component: ProjectsComponent},
   {path: "contact-info", component: ContactInfoComponent},
-  {path: "**", component: NotfoundComponent}
+  {path: "404", component: NotfoundComponent},
+  {path: "**", redirectTo: '404'}
 ];
 
 @NgModule({
