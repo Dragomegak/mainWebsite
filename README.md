@@ -38,6 +38,8 @@ Modularity of tables: `https://jsonworld.com/demo/how-to-read-local-json-file-in
 
 ## To Do:  
 
+- Complete as of May 6/20
+
 ## Wishlist To Do:  
 
 Add Study Section w/ Youtube playlist links.
