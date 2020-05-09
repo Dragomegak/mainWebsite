@@ -19,14 +19,21 @@
     top: 35px; 
     */
     
-    padding-top: 6vh;
-    padding-bottom: 3vh; /* 0.20vh; */
+    padding-top: 8vh;
+    padding-bottom: 2vh; /* 0.20vh; */
 }
 .project-title>h2{
     /* Header Color & Attributes */
     text-align: center;
     color: #fff;
     text-shadow: #000 0px 0px 4px;
+}
+.github-link{
+    /* Header Color & Attributes */
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 0px 4px;
+    padding-bottom: 2vh;
 }
 .project-list{
     /* Styling for the Table */
